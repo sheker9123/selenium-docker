@@ -15,7 +15,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 script {
-                	app = docker.build("12345678.dkr.ecr.ca-central-1.amazonaws.com/selenium-docker")
+                	app = docker.build("s.com/selenium-docker")
                 }
             }
         }
